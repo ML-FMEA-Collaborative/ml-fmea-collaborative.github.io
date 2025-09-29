@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ML FMEA - ML FMEA Collaborative</title>
+    <meta name="description" content="Learn about the ML FMEA (Machine Learning Failure Mode and Effects Analysis) technique for safe AI development across industries.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>ML FMEA Collaborative</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link active">About ML FMEA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resources.html" class="nav-link">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a href="community.html" class="nav-link">Community</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/TallPaul67/MachineLearningFMEA" class="nav-link" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        <!-- Hero Section -->
+        <section class="hero" style="min-height: 60vh; padding: 120px 0 60px;">
+            <div class="container">
+                <div class="hero-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    <h1 class="hero-title" style="font-size: 3rem;">What is ML FMEA?</h1>
+                    <p class="hero-subtitle" style="font-size: 1.3rem; margin-bottom: 2rem;">
+                        A Safe Machine Learning Approach
+                    </p>
+                    <p class="hero-description" style="font-size: 1.1rem;">
+                        The ML FMEA (Machine Learning Failure Mode and Effects Analysis) is a structured approach to safe ML development that combines established ML development practices with the Process Failure Mode and Effects Analysis (PFMEA) framework.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="card">
+                    <h2>The Challenge of Safe Machine Learning</h2>
+                    <p>
+                        Incorporating machine learning into safety-critical applications presents unique challenges that differ from traditional, deterministic software systems. Unlike conventional software where decisions are based on explicit, human-written code, ML models often operate as black boxes, making it difficult to understand how decisions are made.
+                    </p>
+                    <p>
+                        This lack of transparency can be problematic in safety-critical applications where understanding the decision-making process is crucial for verifying and validating the system's behavior. Additionally, ML performance can vary due to changes in input data, and the verification and validation of ML components in safety-critical systems are complex and not yet standardized.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ML Pipeline Section -->
+        <section class="content-section" style="background-color: #f8fafc;">
+            <div class="container">
+                <h2>The Eleven-Step ML Pipeline</h2>
+                <p style="text-align: center; margin-bottom: 3rem; font-size: 1.1rem; color: #64748b;">
+                    The ML FMEA methodology examines each stage of a typical ML pipeline, identifying potential failure modes and corresponding mitigations.
+                </p>
+                
+                <div class="ml-pipeline-detailed">
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Collect Data Requests</h3>
+                            <p>Define data requirements and specifications for the ML model.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Collect Data</h3>
+                            <p>Gather and acquire the necessary datasets for training and validation.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Data Preprocessing</h3>
+                            <p>Clean, transform, and prepare data for model training.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Feature Engineering</h3>
+                            <p>Select and create relevant features for the ML model.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>Model Selection</h3>
+                            <p>Choose appropriate algorithms and model architectures.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">6</div>
+                        <div class="step-content">
+                            <h3>Model Training</h3>
+                            <p>Train the selected model using prepared datasets.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">7</div>
+                        <div class="step-content">
+                            <h3>Model Validation</h3>
+                            <p>Evaluate model performance using validation datasets.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">8</div>
+                        <div class="step-content">
+                            <h3>Model Testing</h3>
+                            <p>Conduct comprehensive testing on unseen test data.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">9</div>
+                        <div class="step-content">
+                            <h3>Model Deployment</h3>
+                            <p>Deploy the trained model to production environments.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">10</div>
+                        <div class="step-content">
+                            <h3>Model Monitoring</h3>
+                            <p>Continuously monitor model performance in production.</p>
+                        </div>
+                    </div>
+                    <div class="pipeline-step-detailed">
+                        <div class="step-number">11</div>
+                        <div class="step-content">
+                            <h3>Model Maintenance</h3>
+                            <p>Update and maintain the model based on performance data.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Benefits Section -->
+        <section class="content-section">
+            <div class="container">
+                <h2>Key Benefits of ML FMEA</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Systematic Risk Identification</h3>
+                        <p>Identifies potential failure modes throughout the entire ML pipeline, from data collection to deployment, ensuring comprehensive risk coverage.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Safety-First Approach</h3>
+                        <p>Emphasizes the importance of risk identification and mitigation throughout the pipeline rather than focusing exclusively on model performance.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h3>Stakeholder Collaboration</h3>
+                        <p>Facilitates coordination between ML engineers, safety professionals, and domain experts for comprehensive risk assessment.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-clipboard-list"></i>
+                        </div>
+                        <h3>Pre-populated Template</h3>
+                        <p>Includes a comprehensive ML FMEA Template designed to assist development teams in assessing, documenting, and communicating risks.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3>Standards Compliance</h3>
+                        <p>Addresses requirements in ISO 21448, UL 4600, ISO PAS 8800, and other safety standards for autonomous vehicles and AI systems.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                        <h3>Cross-Industry Application</h3>
+                        <p>Applicable across automotive, healthcare, aerospace, defense, manufacturing, and other safety-critical industries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Failure Mode Categories Section -->
+        <section class="content-section" style="background-color: #f8fafc;">
+            <div class="container">
+                <h2>ML Failure Mode Categories</h2>
+                <p style="text-align: center; margin-bottom: 3rem; font-size: 1.1rem; color: #64748b;">
+                    Research has identified three primary categories of potential failure modes across the ML pipeline:
+                </p>
+                
+                <div class="failure-categories">
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Data Issues</h3>
+                        <ul>
+                            <li>Bias in training data</li>
+                            <li>Insufficient data coverage</li>
+                            <li>Outdated or stale data</li>
+                            <li>Data quality problems</li>
+                            <li>Data leakage</li>
+                        </ul>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Model Limitations</h3>
+                        <ul>
+                            <li>Overfitting to training data</li>
+                            <li>Underfitting and poor generalization</li>
+                            <li>Model complexity issues</li>
+                            <li>Algorithm selection problems</li>
+                            <li>Hyperparameter tuning failures</li>
+                        </ul>
+                    </div>
+                    <div class="category-card">
+                        <div class="category-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Deployment Limitations</h3>
+                        <ul>
+                            <li>Integration failures</li>
+                            <li>Scalability issues</li>
+                            <li>Performance degradation</li>
+                            <li>Environment mismatches</li>
+                            <li>Monitoring and maintenance gaps</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Standards Alignment Section -->
+        <section class="content-section">
+            <div class="container">
+                <div class="card">
+                    <h2>Alignment with Safety Standards</h2>
+                    <p>
+                        The ML FMEA methodology addresses the requirements and recommendations described in widely followed standards governing the development and deployment of autonomous vehicles and AI systems:
+                    </p>
+                    <ul>
+                        <li><strong>ISO 21448 (SOTIF):</strong> Addresses functional insufficiencies in ML specification and measurement data</li>
+                        <li><strong>UL 4600:</strong> Covers V&V procedures, engineering rigor, and data quality requirements for ML algorithms</li>
+                        <li><strong>ISO PAS 8800:</strong> Prescribes analyses to ensure engineering rigor in ML pipeline development</li>
+                        <li><strong>ISO TR 5469:</strong> Lists fault model methodologies including process-level FMEA</li>
+                    </ul>
+                    <p>
+                        The ML FMEA Template and methodology can serve as important evidence artifacts supporting safety case claims that the ML pipeline was developed with the highest level of rigor.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Implement ML FMEA?</h2>
+                    <p>Access our resources and join the collaborative effort to enhance ML safety.</p>
+                    <div class="cta-buttons">
+                        <a href="resources.html" class="btn btn-primary">Access Resources</a>
+                        <a href="community.html" class="btn btn-secondary">Join Community</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ML FMEA Collaborative</h3>
+                    <p>Advancing safe machine learning through collaborative failure mode and effects analysis.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About ML FMEA</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="community.html">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>External Resources</h4>
+                    <ul>
+                        <li><a href="https://torc.ai/knowledge-center/publications/the-ml-fmea-an-introduction/" target="_blank">Original Paper</a></li>
+                        <li><a href="https://github.com/TallPaul67/MachineLearningFMEA" target="_blank">GitHub Repository</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ML FMEA Collaborative. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
