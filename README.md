@@ -39,7 +39,7 @@ The website is automatically deployed to GitHub Pages when changes are pushed to
 
 Join our collaborative community:
 
-- [GitHub Discussions](https://github.com/TallPaul67/MachineLearningFMEA/discussions)
+- [GitHub Discussions](https://github.com/TallPaul67/MachineLearningFMEA/issues)
 - [Community Guidelines](community.html#community-guidelines)
 
 ## Contributing
@@ -52,4 +52,4 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or collaboration opportunities, please reach out through our [GitHub Discussions](https://github.com/TallPaul67/MachineLearningFMEA/discussions).
+For questions or collaboration opportunities, please reach out through our [GitHub Discussions](https://github.com/TallPaul67/MachineLearningFMEA/issues).
