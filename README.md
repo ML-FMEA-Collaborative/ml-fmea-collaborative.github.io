@@ -31,6 +31,9 @@ The website is automatically deployed to GitHub Pages when changes are pushed to
 
 ## Resources
 
+- [The ML FMEA Handbook v1.0](ML-FMEA-Handbook-v1.0.pdf)
+- [ML FMEA in Action (PrePrint)](ML-FMEA-in-Action-PrePrint.pdf)
+- [SAE WCX 2026 Presentation](SAE-WCX-2026-ML-FMEA-In-Action.pptx)
 - [Original Research Paper](https://torc.ai/knowledge-center/publications/the-ml-fmea-an-introduction/)
 - [GitHub Repository](https://github.com/TallPaul67/MachineLearningFMEA)
 - [ML FMEA Template](https://github.com/TallPaul67/MachineLearningFMEA)
